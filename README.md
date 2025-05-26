@@ -9,8 +9,17 @@ GSTM において、JavaScript (Vanilla JS) と jQuery の基礎を学びまし�
 
 ```
 js-practice/
+├── README.md
 ├── vanilla-memo-app/ # Vanilla JS を使ったメモアプリ
+│   ├── index.html
+│   └── static/
+│       ├── index.css
+│       └── index.js
 ├── jquery-memo-app/ # jQuery を使ったメモアプリ
+│   ├── index.html
+│   └── static/
+│       ├── index.css
+│       └── index.js
 ```
 
 ## アプリ概要
