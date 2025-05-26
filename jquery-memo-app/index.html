@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <title>メモアプリ</title>
+  <link rel="stylesheet" href="static/index.css" />
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+  <script src="static/index.js"></script>
+</head>
+<body>
+  <div class="header">
+    <h1>メモアプリ</h1>
+  </div>
+  <div class="container">
+    <div class="memo-list">
+      <h2>メモ一覧</h2>
+      <ul id="memo-list"></ul>
+      <button id="add-memo-btn" class="plus-button">＋</button>
+    </div>
+    <div class="memo-detail">
+      <h2>詳細</h2>
+      <div>
+        <input type="text" id="memo-title" placeholder="タイトル" /><br />
+        <textarea id="memo-content" placeholder="内容"></textarea><br />
+        <button id="save-btn" class="custom-button">保存</button>
+        <button id="delete-btn" class="custom-button">削除</button>
+        <button id="download-btn" class="custom-button">ダウンロード</button>
+        <button id="cancel-btn" class="custom-button">閉じる</button>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
